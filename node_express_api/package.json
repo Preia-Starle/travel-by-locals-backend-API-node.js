@@ -4,7 +4,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "/Users/kate/Documents/Web projects/TravelsByLocals API/node_express_api/server.js"
+    "start": "node home/site/wwwroot/server.js"
   },
   "keywords": [],
   "author": "",
