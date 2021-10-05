@@ -6,7 +6,6 @@ import usersRoutes from './routes/users.js';
 
 const app = express();
 app.set('port', process.env.PORT || 443);
-const PORT = 443;
 
 import sql from 'mssql';
 
@@ -24,5 +23,9 @@ app.use(cors({
 
 app.use('/users', usersRoutes);
 
-app.listen(PORT, () => console.log(`Server running on port: https://travelsbylocalsnodeexpresswebapp.azurewebsites.net:${PORT}`));
+app.listen(app.get('port'), function(){
+  console.log('Express server listening on port ' + app.get('port'));
+  });
+
+//app.listen(PORT, () => console.log(`Server running on port: https://travelsbylocalsnodeexpresswebapp.azurewebsites.net:${PORT}`));
 
