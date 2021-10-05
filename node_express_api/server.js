@@ -5,6 +5,7 @@ import cors from 'cors';
 import usersRoutes from './routes/users.js';
 
 const app = express();
+app.set('port', process.env.PORT || 443);
 const PORT = 443;
 
 import sql from 'mssql';
