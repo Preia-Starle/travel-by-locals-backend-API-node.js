@@ -1,4 +1,5 @@
 {
     "appService.deploySubpath": ".",
-    "appService.defaultWebAppToDeploy": "/subscriptions/12333235-edcf-4c1b-932e-345efb2c94aa/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/TravelsByLocalsNodeExpressWebApp"
+    "appService.showBuildDuringDeployPrompt": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/12333235-edcf-4c1b-932e-345efb2c94aa/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/expressNodeAppTest"
 }
