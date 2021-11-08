@@ -7,5 +7,5 @@ package-lock.json
 test/*.log
 node_express_api/.vscode/
 node_express_api/.htaccesstxt/
-.DS_Store/
-node_express_api/.DS_Store/
+.DS_Store
+node_express_api/.DS_Store
