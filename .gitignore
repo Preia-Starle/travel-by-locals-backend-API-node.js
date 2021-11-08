@@ -6,6 +6,6 @@ npm-debug.log
 node_express_api/package-lock.json
 test/*.log
 node_express_api/.vscode
-node_express_api/.htaccesstxt
+node_express_api/.htaccess.txt
 .DS_Store
 node_express_api/.DS_Store
