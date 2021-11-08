@@ -9,3 +9,4 @@ node_express_api/.vscode
 node_express_api/.htaccess.txt
 .DS_Store
 node_express_api/.DS_Store
+*.vs/
