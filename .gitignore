@@ -5,9 +5,7 @@ node_express_api/node_modules/
 npm-debug.log
 package-lock.json
 test/*.log
-node_express_api/.DS_Store/
 node_express_api/.vscode/
 node_express_api/.htaccesstxt/
-
-
-
+.DS_Store
+node_express_api/.DS_Store
